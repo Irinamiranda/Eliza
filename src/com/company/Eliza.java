@@ -3,8 +3,9 @@ package com.company;
 import java.util.Scanner;
 
 public class Eliza {
-
+    //create method to replace pronouns for future usage as a question
     public static String dialog() {
+
         Scanner s = new Scanner(System.in);
         String myAnswer = s.nextLine();
 
